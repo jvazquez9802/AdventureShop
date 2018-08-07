@@ -12,6 +12,7 @@ class Header extends Component {
                 <Link to= "/"><button type="button">Inicio</button></Link>
                 <Link to= "/Nanatsu"><button type="button">Nanatsu</button></Link>
                 <Link to= "/Fate"><button type="button">Fate</button></Link>
+                <Link to= "/Kart"><button type="button">Kart</button></Link>
             </div>
         );
     }

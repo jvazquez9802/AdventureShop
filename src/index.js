@@ -10,7 +10,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 const store = createStore(allData);
 
 ReactDOM.render(
-    <Provider>
+    <Provider store = {store}>
         <Router>
             <AppRoutes/>
         </Router>
