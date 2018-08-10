@@ -11,9 +11,14 @@ class App extends Component {
   render() {
     const {children} = this.props;
     return (
-      <div>
-        <Header/>
-        <Content body = {children} />
+      <div style={{backgroundColor: "#005874"}}>
+        <div className="container" style = {{backgroundColor: "005874"}}>
+          <Header />
+        </div>
+        <div className="container-fluid" style = {{backgroundColor: "white"}}>
+        <hr/>
+          <Content body = {children} />
+        </div>
       </div>
     );
   }
